@@ -1,0 +1,94 @@
+/* Formulir.css */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(bg1.jpg);
+}
+
+.container {
+  width: 40%;
+  min-height: 100%;
+  margin: 0 auto;
+  background-color: bisque;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px; /* Tambahkan border-radius untuk sudut yang lebih lembut */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Tambahkan shadow untuk efek ketinggian */
+}
+
+.form h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.pendaftaran {
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.label {
+  width: 40%;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.in {
+  width: 60%;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.input,
+.select,
+.radio-label,
+.btn {
+  margin-bottom: 20px;
+}
+
+.label {
+  width: 40%;
+  line-height: 1.5;
+}
+
+.in {
+  width: 60%;
+  line-height: 1.5;
+}
+
+.input {
+  padding: 10px; /* Tambahkan padding untuk memberikan ruang di dalam kotak pengisian */
+  border: 1px solid #faf7f7; /* Tambahkan border agar cekung terlihat lebih jelas */
+  border-radius: 5px; /* Tambahkan border-radius untuk membuat kotak pengisian lebih cekung */
+  width: 92%;
+}
+.select,
+.radio-label,
+.btn {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  padding: 10px; /* Tambahkan padding untuk tampilan tombol yang lebih baik */
+  background-color: pink;
+  color: rgb(19, 16, 16);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Tambahkan animasi saat hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: pink;
+}

@@ -1,0 +1,101 @@
+/* Tabel.css */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-image: url(bg1.jpg);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.sub_judul {
+  font-size: 28px;
+  margin: 50px 0;
+  color: black;
+  text-align: center; /* Menengahkan teks */
+}
+
+.form {
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.daftar_akre {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  overflow-x: auto;
+}
+
+.daftar_akre th,
+.daftar_akre td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.daftar_akre th {
+  background-color: bisque;
+  color: black;
+}
+
+.daftar_akre tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.daftar_akre tr:hover {
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 1080px) {
+  .akre {
+    overflow-x: scroll;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  nav ul li {
+    font-size: 20px;
+  }
+  .desc h1 {
+    font-size: 60px;
+  }
+  .logo_fot {
+    display: none;
+  }
+  .footer {
+    align-content: center;
+  }
+  .form h1 {
+    font-size: 20px;
+  }
+  .sub_judul {
+    font-size: 20px;
+  }
+  .logo img {
+    width: 75px;
+  }
+  .logo {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 546px) {
+  .desc h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 362px) {
+  .desc h1 {
+    font-size: 40px;
+  }
+  .desc p {
+    font-size: 25px;
+  }
+}
